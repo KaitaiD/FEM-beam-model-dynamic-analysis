@@ -17,6 +17,35 @@ __ndof__: No. degrees of freedom per node (2 for 2D, 3 for 3D) (here ndof=ncoord
 
 __nnode__: No. nodes
 
-__coords(i, j)__: ith coord of jth node, for i=1..ncoord; j=1..nnode
+__coords(i, j)__: _i_ th coord of _j_ th node, for _i_ =1..ncoord; _j_ =1..nnode
 
 __nelem__:  No. elements
+
+__maxnodes__:  Max no. nodes on any one element (used for array dimensioning)
+
+__nelnodes(i)__:  No. nodes on the ith element
+
+__elident(i)__:  An integer identifier for the ith element.  Not used in this code but could be used to switch on reduced integration, etc.
+
+__connect(i,j)__:  List of nodes on the jth element
+
+__nfix__:    Total no. prescribed displacements
+
+__fixnodes(i,j)__:       List of prescribed displacements at nodes
+
+                            fixnodes(1,j) Node number
+                            
+                            fixnodes(2,j) Displacement component number (1, 2 or 3)
+                            
+                            fixnodes(3,j) Value of the displacement
+                            
+__ndload__:  Total no. element faces subjected to tractions
+
+__dloads(i,j)__         List of element tractions
+
+                            dloads(1,j) Element number
+                            
+                            dloads(2,j) face number
+                            
+                            dloads(3,j), dloads(4,j), dloads(5,j) Components of traction
+                           
