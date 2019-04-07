@@ -33,19 +33,19 @@ __nfix__:    Total no. prescribed displacements
 
 __fixnodes(_i_, _j_)__:       List of prescribed displacements at nodes
 
-             fixnodes(1,j) Node number
+              fixnodes(1,j) Node number
                             
-             fixnodes(2,j) Displacement component number (1, 2 or 3)
+              fixnodes(2,j) Displacement component number (1, 2 or 3)
                             
-             fixnodes(3,j) Value of the displacement
+              fixnodes(3,j) Value of the displacement
                             
 __ndload__:  Total no. element faces subjected to tractions
 
-__dloads(_i_, _j_)__         List of element tractions
+__dloads(_i_, _j_)__:         List of element tractions
 
-             dloads(1,j) Element number
+              dloads(1,j) Element number
                             
-             dloads(2,j) face number
+              dloads(2,j) face number
                             
-             dloads(3,j), dloads(4,j), dloads(5,j) Components of traction
+              dloads(3,j), dloads(4,j), dloads(5,j) Components of traction
                            
