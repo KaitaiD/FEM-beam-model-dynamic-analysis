@@ -50,4 +50,4 @@ __dloads(_i_, _j_)__:         List of element tractions
               dloads(3,j), dloads(4,j), dloads(5,j) Components of traction
                            
 ### Run the program
-In order to run the program, it is necessary to have an input profile as explained in the last section. Then go to 
+In order to run the program, it is necessary to have an input profile as explained in the last section. Then go to __FEM_2Dor3D_linelast_dynamic_newmark.m__ as it is the main script that simulates the response. The main script has all been set up and the size of the model and the exerted force shall all be defined in the input profile.
