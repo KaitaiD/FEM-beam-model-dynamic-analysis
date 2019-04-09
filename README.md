@@ -49,3 +49,4 @@ __dloads(_i_, _j_)__:         List of element tractions
                             
               dloads(3,j), dloads(4,j), dloads(5,j) Components of traction
                            
+### Run the program
