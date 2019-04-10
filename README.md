@@ -1,10 +1,10 @@
 # FEM-beam-model-dynamic-analysis
 2D/3D Finite Element (FEM) beam model using Newmark Method for dynamic analysis
 
-### Aim
+## Aim
 This code provides an example of 2D and 3D dynamic linear elastic FEM code using __Newmark Method__. It contains a beam mesh with force exerted at the designated point and reveals the dynamic responses on the beam. It shows how to solve the global system equations in the FEM models.
 
-### Input file
+## Input file
 In order to run the model, it is necessary to have the following variables as input:
 
 __nprops__: No. material parameters
@@ -49,6 +49,7 @@ __dloads(_i_, _j_)__:         List of element tractions
                             
               dloads(3,j), dloads(4,j), dloads(5,j) Components of traction
                            
-### Run the program
+## Run the program
 In order to run the program, it is necessary to have an input profile as explained in the last section. Then change the fopen command below to point to the file. Also change the fopen command in the post-processing step (near the bottom of the program) to point to a suitable output file. In the end go to __FEM_2Dor3D_linelast_dynamic_newmark.m__ as it is the main script that simulates the response. The main script has all been set up and the size of the model and the exerted force shall all be defined in the input profile.
 
+## Output 
