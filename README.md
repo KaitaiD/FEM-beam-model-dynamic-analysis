@@ -57,6 +57,8 @@ The script is able to plot the following things:
 
 1. The initial mesh of the model before going through deformed process. It can be used as a check of the mesh of the FE model.
 
+![alt text](http://url/to/f1.jpeg)
+
 2. The animation of the movement of the beam.
 
 3. The end displacement of the beam as a function of time
