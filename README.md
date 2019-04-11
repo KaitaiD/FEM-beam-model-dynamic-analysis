@@ -55,3 +55,8 @@ In order to run the program, it is necessary to have an input profile as explain
 ## Output 
 The script is able to plot the following things:
 
+1. The initial mesh of the model before going through deformed process. It can be used as a check of the mesh of the FE model.
+
+2. The animation of the movement of the beam.
+
+3. The end displacement of the beam as a function of time
