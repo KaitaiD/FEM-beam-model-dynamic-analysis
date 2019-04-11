@@ -57,7 +57,7 @@ The script is able to plot the following things:
 
 1. The initial mesh of the model before going through deformed process. It can be used as a check of the mesh of the FE model.
 
-![alt text](http://url/to/f1.jpeg)
+![alt text](https://github.com/KaitaiD/FEM-beam-model-dynamic-analysis/blob/master/f1.jpg)
 
 2. The animation of the movement of the beam.
 
