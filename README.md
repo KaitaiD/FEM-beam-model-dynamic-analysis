@@ -61,4 +61,9 @@ The script is able to plot the following things:
 
 2. The animation of the movement of the beam.
 
+![alt text](https://github.com/KaitaiD/FEM-beam-model-dynamic-analysis/blob/master/f2.jpg)
+
 3. The end displacement of the beam as a function of time
+
+![alt text](https://github.com/KaitaiD/FEM-beam-model-dynamic-analysis/blob/master/f3.jpg)
+
