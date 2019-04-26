@@ -68,3 +68,6 @@ The script is able to plot the following things:
 ![alt text](https://github.com/KaitaiD/FEM-beam-model-dynamic-analysis/blob/master/f3.jpg)
 
 In conclusion, the model is able to demonstrate the dynamic analysis of FE mesh given a certain force. Users feel free to change the size of the mesh and the position of the force and observe the change in the result.
+
+## Future tweaks
+This model is flexible in terms of the shape of the beams and the load point. The beam can be adjusted according to the needs of users, as well as the loading position.
