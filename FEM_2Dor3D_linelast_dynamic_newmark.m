@@ -67,13 +67,13 @@ end
 
 % Define Newmark parameters (original  = 0.5, 0) unconditionally stable
 beta1 = 0.6;
-beta2 = 1.01*((2*beta1 + 1)^2)/16;
+beta2 = 1.01*((2*beta1 + 1)^2)/16;  % 
 termination_time = 150;           % seconds
 timestep = 0.01;
 nprint = 100;
 count = 0;
 
-dt = timestep;
+dt = 0.01; % it can be same as the timestep
 total_dt = termination_time/timestep;
 nsteps = total_dt;
 
