@@ -136,7 +136,7 @@ end
 % Plot the end displacement as a function of time (2D graph)
 %--------------------------------------------------------
 figure
-plot(vxy(1,:),vxy(2,:))
+plot(vxy(1,:),vxy(2,:),'-r')
 xlabel({'Time'},'FontSize',16);
 ylabel({'End displacement'},'FontSize',16);
 
