@@ -113,6 +113,7 @@ for n = 1:nsteps
     
     %      Plot displaced mesh every nprint steps.
     %--------------------------------------------------------
+    % plot the animation of the beam movement given the force
     if (count == nprint)
         scale_factor = 3.;
         defcoords = zeros(ndof,nnode);
