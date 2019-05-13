@@ -2,6 +2,8 @@ function Stif = globalstiffness(ncoord,ndof,nnode,coords,nelem,maxnodes,elident,
 %
 %====================== Assemble the global stiffness matrix =================
 
+% set the matrix for stiffness and coordinates
+
    Stif = zeros(ndof*nnode,ndof*nnode);
    lmncoord = zeros(ncoord,maxnodes);
    lmndof = zeros(ndof,maxnodes);
