@@ -90,7 +90,7 @@ function mel = elmass(ncoord,ndof,nelnodes,elident,lumpedmass,coord,materialprop
        for b = 1 : nelnodes*ndof
           if (a ~= b)
             mel(a,a) = mel(a,a) + mel(a,b);
-            mel(a,b) = 0.;
+            mel(a,b) = 0.; % elements on non-diagonal part are all zeros
           end
        end
     end
