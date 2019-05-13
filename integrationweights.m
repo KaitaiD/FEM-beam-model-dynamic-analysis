@@ -3,7 +3,7 @@ function w = integrationweights(ncoord,nelnodes,npoints,elident)
 %
 %================= INTEGRATION WEIGHTS ==================================
 %
-%   Defines integration weights w_i (Gaussian quadrature?)
+%   Defines integration weights w_i (Gaussian quadrature)
 %
    w = zeros(npoints,1);
 
